@@ -6,7 +6,13 @@
   "content_scripts": [{
     "matches": ["https://www.udemy.com/course/*/learn/lecture/*"],
     "js": [
-      "./src/main.js"
+      "src/js/load.js"
+    ],
+    "css": [
+      "src/css/style.css"
     ]
-  }]
+  }],
+  "web_accessible_resources": [
+    "src/js/*"
+ ]
 }
