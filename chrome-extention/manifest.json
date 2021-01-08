@@ -1,8 +1,16 @@
 {
+  "manifest_version": 2,
   "name": "Enhancer for Udemy",
   "version": "1.0.0",
-  "manifest_version": 2,
-  "description": "Subtitles can be displayed in all languages by using it at the same time as Google Translate.",
+  "description": "Features that improve the Udemy user experience.",
+  "icons": {
+    "16": "src/icons/icon.png",
+    "48": "src/icons/icon.png",
+    "128": "src/icons/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "src/icons/icon.png"
+  },
   "content_scripts": [{
     "matches": ["https://www.udemy.com/course/*/learn/lecture/*"],
     "js": [
