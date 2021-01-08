@@ -1,5 +1,7 @@
 # Enhancer for Udemy
 
+[**Download**](https://chrome.google.com/webstore/detail/enhancer-for-udemy/iamafjcbkdibeiceembdmcdakbioaool) (Chrome Web Store)
+
 # Features
 
 ## Transcriptions to Subtitle
