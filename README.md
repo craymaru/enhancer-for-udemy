@@ -3,9 +3,11 @@
 # Features
 
 ## Transcriptions to Subtitle
+* Original and Translated subtitles
+* Working with Chrome built-in GoogleTranslate
+* Solved the problem of not translating in Chrome
+* Support Fullscreen
 
-Transcriptions translated by Google will be used as subtitles.
+![](https://i.imgur.com/pwbsv3y.gif)
 
-This feature solves the problem of subtitles not being translated correctly when they are transitioned.
-
-This feature also displays the translated subtitles and the original subtitles on screen at the one time.
+Transcriptions translated by Google translation will be used as subtitles.
