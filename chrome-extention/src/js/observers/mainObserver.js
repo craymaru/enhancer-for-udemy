@@ -11,7 +11,8 @@ const caption = new Subtitle()
 const exec = function() {
 
   // Load Element if not loaded
-  appendEnhancerElements()
+  const transcriptButton = document.querySelector("button[data-purpose='transcript-toggle']")
+  if (transcriptButton) appendEnhancerElements()
 
   // Parse each subtitle elements to each texts
   transcript.parse(

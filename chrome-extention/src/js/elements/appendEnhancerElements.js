@@ -23,12 +23,15 @@ const appendEnhancerElements = function() {
     newButton.appendChild(newSpan)
 
     const target = document.querySelector("button[data-purpose='transcript-toggle']")
-    target.before(newButton)
-    console.log(APP, "Append Enhancer button.")
+    if (target) {
+      target.before(newButton)
+      console.log(APP, "Append Enhancer button.")
+    }
   }
   
   // Onclick
-  document.getElementById("enhancer-subtitle-toggle").onclick = () => {
+  const toggle = document.getElementById("enhancer-subtitle-toggle")
+  if (toggle) toggle.onclick = () => {
     
     // Open Udemy Transcription sidebar
     const transcription = document.querySelector("div[class^='transcript--transcript-panel--']")
@@ -66,9 +69,11 @@ const appendEnhancerElements = function() {
       newDiv.appendChild(subtitleDiv2)
     
       const target = document.querySelector("[class^='well--container--']")
-      const targetSpan = target.querySelector("span")
-      targetSpan.style.display = "none"
-      target.appendChild(newDiv)
+      if (target) {
+        const targetSpan = target.querySelector("span")
+        targetSpan.style.display = "none"
+        target.appendChild(newDiv)
+      }
     }
   }
 }

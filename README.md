@@ -13,3 +13,8 @@
 ![](https://i.imgur.com/pwbsv3y.gif)
 
 Transcriptions translated by Google translation will be used as subtitles.
+
+## Versions
+
+1.0.0 - Initial
+1.0.1 - bugfix
